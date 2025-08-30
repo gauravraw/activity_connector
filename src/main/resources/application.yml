@@ -11,6 +11,3 @@ github:
   baseUrl: https://api.github.com
   repository-path: ${github.baseUrl}/users/%s/repos
   commit-path: ${github.baseUrl}/repos/%s/%s/commits
-
-rate-limiting:
-  requests-per-minute: 10
