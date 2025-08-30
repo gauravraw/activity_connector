@@ -30,10 +30,7 @@ The application uses **Bucket4j** to enforce rate limiting on the API.
 - **Response Code**: `429 Too Many Requests` when the rate limit is exceeded.
 - **Error Message**: `Rate limit exceeded. Try again later.`
 
-### Configuration
-The rate limit can be configured in the `application.yml` file:
-```yaml
-rate-limiting:
+### Rate limiting
   requests-per-minute: 10
 
 How to Run
